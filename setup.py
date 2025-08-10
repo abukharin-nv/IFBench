@@ -25,14 +25,7 @@ setup(
     long_description=read_readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/abukharin-nv/IFBench",
-    py_modules=[
-        'evaluation_lib',
-        'instructions_registry', 
-        'instructions_test',
-        'instructions_util',
-        'instructions',
-        'run_eval'
-    ],
+    packages=['ifbench'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
