@@ -17,7 +17,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-import instructions
+from . import instructions
 
 # pylint:disable=g-complex-comprehension
 class InstructionsTest(parameterized.TestCase):

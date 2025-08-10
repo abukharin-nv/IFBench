@@ -14,7 +14,7 @@
 
 """Registry of all instructions."""
 
-import instructions
+from . import instructions
 
 
 INSTRUCTION_DICT = {

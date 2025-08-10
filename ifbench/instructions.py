@@ -29,7 +29,7 @@ from collections import Counter
 import csv
 import io
 
-import instructions_util
+from . import instructions_util
 
 download('en_core_web_sm')
 
