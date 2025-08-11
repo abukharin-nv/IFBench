@@ -1550,15 +1550,15 @@ WORD_LIST = [
     "apartment",
 ]  # pylint: disable=line-too-long
 
-def download_nltk_resources():
-    """Download 'punkt' if not already installed"""
-    try:
-        nltk.data.find("tokenizers/punkt")
-    except LookupError:
-        nltk.download("punkt")
+# def download_nltk_resources():
+#     """Download 'punkt' if not already installed"""
+#     try:
+#         nltk.data.find("tokenizers/punkt")
+#     except LookupError:
+#         nltk.download("punkt")
 
 
-download_nltk_resources()
+# download_nltk_resources()
 
 
 _ALPHABETS = "([A-Za-z])"
